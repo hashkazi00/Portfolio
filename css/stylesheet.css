@@ -411,6 +411,18 @@ span.subword {
 .fab:not(:last-child) {
   margin-right: 2.5rem; }
 
+@media (max-width: 1050px) {
+  .technologies {
+    margin-left: 1rem;
+    margin-top: 4rem;
+    font-size: 7rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; } }
+
 .fa-html5:hover {
   color: #e96228;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.8), 0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8), 0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5), 0 0 80px rgba(66, 220, 219, 0.5); }
