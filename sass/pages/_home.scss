@@ -218,7 +218,7 @@ span.subword{
 .animated-title > div.text-top div span:first-child {
 //   color: $color-secondary;
 color:$color-white;
-padding-bottom: 1rem;
+padding-bottom: 1.2rem;
 }
 .animated-title > div.text-bottom {
   bottom: 0;
@@ -519,15 +519,20 @@ padding-bottom: 1rem;
   .animated-title {
   color: $color-white;
   font-family: Roboto, Arial, sans-serif;
-  height: 18rem;
+  height: 20rem;
   position: absolute;
 //   transform: translate(-50%, -50%);
   // width: 80vmin;
 }
 .animated-title > div div {
-  font-size:2.5rem;
+  font-size:2.8rem;
   padding: 2.4vmin 0;
   // position: absolute;
+}
+.animated-title > div.text-top div span:first-child {
+//   color: $color-secondary;
+color:$color-white;
+padding-bottom: 1rem;
 }
 .technologies {
   // margin-left: 1rem;
@@ -541,6 +546,28 @@ padding-bottom: 1rem;
 	// justify-content: center;
 	// flex-direction: column;
 	// text-align: center;
+}
+
+}
+
+@media (max-width:410px){
+  .animated-title {
+  color: $color-white;
+  font-family: Roboto, Arial, sans-serif;
+  height: 20rem;
+  position: absolute;
+//   transform: translate(-50%, -50%);
+  // width: 80vmin;
+}
+.animated-title > div div {
+  font-size:2.5rem;
+  padding: 2.4vmin 0;
+  // position: absolute;
+}
+.animated-title > div.text-top div span:first-child {
+//   color: $color-secondary;
+color:$color-white;
+padding-bottom: 2rem;
 }
 }
 

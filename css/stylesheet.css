@@ -253,7 +253,7 @@ span.subword {
 
 .animated-title > div.text-top div span:first-child {
   color: white;
-  padding-bottom: 1rem; }
+  padding-bottom: 1.2rem; }
 
 .animated-title > div.text-bottom {
   bottom: 0; }
@@ -431,13 +431,29 @@ span.subword {
   .animated-title {
     color: white;
     font-family: Roboto, Arial, sans-serif;
-    height: 18rem;
+    height: 20rem;
+    position: absolute; }
+  .animated-title > div div {
+    font-size: 2.8rem;
+    padding: 2.4vmin 0; }
+  .animated-title > div.text-top div span:first-child {
+    color: white;
+    padding-bottom: 1rem; }
+  .technologies {
+    font-size: 4.5rem; } }
+
+@media (max-width: 410px) {
+  .animated-title {
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    height: 20rem;
     position: absolute; }
   .animated-title > div div {
     font-size: 2.5rem;
     padding: 2.4vmin 0; }
-  .technologies {
-    font-size: 4.5rem; } }
+  .animated-title > div.text-top div span:first-child {
+    color: white;
+    padding-bottom: 2rem; } }
 
 .fa-html5:hover {
   color: #e96228;
