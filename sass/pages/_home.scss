@@ -746,21 +746,27 @@ padding-bottom: 2rem;
 
 .social--icons{
   // background-color: red;
-  flex:display;
+  display:flex;
   justify-content: center;
+  // align-items: center;
   // font-size: 5rem;
   // text-decoration: none;
   color:white;
   margin-top: 5rem;
 }
 .social a{
+  position: relative;
   text-decoration: none;
   color:white;
+  // background-color: black;
+  // left:50%;
 }
 
-.con2ainer{
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
+
+// .con2ainer{
+//   position: relative;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 

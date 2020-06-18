@@ -504,16 +504,12 @@ span.subword {
   margin-bottom: -5rem; }
 
 .social--icons {
-  flex: display;
+  display: flex;
   justify-content: center;
   color: white;
   margin-top: 5rem; }
 
 .social a {
+  position: relative;
   text-decoration: none;
   color: white; }
-
-.con2ainer {
-  position: relative;
-  display: flex;
-  justify-content: center; }
