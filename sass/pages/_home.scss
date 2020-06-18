@@ -481,6 +481,8 @@ padding-bottom: 1rem;
   margin-right: 2.5rem;
 }
 
+
+
 @media (max-width:1050px){
 .technologies {
   margin-left: 1rem;
@@ -496,6 +498,40 @@ padding-bottom: 1rem;
 	text-align: center;
 }
 }
+
+@media (max-width:500px){
+.technologies {
+  // margin-left: 1rem;
+  // // background-color: wheat;
+  // // width:80%;
+	// margin-top: 4rem;
+	font-size: 5rem;
+  // display: flex;
+  // color:white;
+	// align-items: center;
+	// justify-content: center;
+	// flex-direction: column;
+	// text-align: center;
+}
+}
+
+@media (max-width:375px){
+.technologies {
+  // margin-left: 1rem;
+  // // background-color: wheat;
+  // // width:80%;
+	// margin-top: 4rem;
+	font-size: 4.5rem;
+  // display: flex;
+  // color:white;
+	// align-items: center;
+	// justify-content: center;
+	// flex-direction: column;
+	// text-align: center;
+}
+}
+
+
 
 .fa-html5:hover {
 	color: #e96228;

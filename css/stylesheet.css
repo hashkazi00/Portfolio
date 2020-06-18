@@ -423,6 +423,14 @@ span.subword {
     flex-direction: column;
     text-align: center; } }
 
+@media (max-width: 500px) {
+  .technologies {
+    font-size: 5rem; } }
+
+@media (max-width: 375px) {
+  .technologies {
+    font-size: 4.5rem; } }
+
 .fa-html5:hover {
   color: #e96228;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.8), 0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8), 0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5), 0 0 80px rgba(66, 220, 219, 0.5); }
