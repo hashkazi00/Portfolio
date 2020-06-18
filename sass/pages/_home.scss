@@ -731,7 +731,7 @@ padding-bottom: 1.2rem;
 }
 .card--bottom{
   font-size: 1.6rem;
-  height:22rem;
+  height:21rem;
   padding: 2rem;
   text-align: justify;
   display: flex;
@@ -756,6 +756,7 @@ padding-bottom: 1.2rem;
 	// flex-direction: column;
 	// text-align: center;
 }
+
 }
 
 @media (max-width:497px){
@@ -811,6 +812,18 @@ padding-bottom: 1rem;
 //   color: $color-secondary;
 color:$color-white;
 padding-bottom: 2rem;
+}
+.card--bottom{
+  font-size: 1.6rem;
+  height:24rem;
+  padding: 2rem;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: #222831;
+  box-shadow: 0px 20px 15px #000000c7;
 }
 }
 
