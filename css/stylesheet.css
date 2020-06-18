@@ -506,10 +506,12 @@ span.subword {
 .social--icons {
   display: flex;
   justify-content: center;
+  align-items: center;
   color: white;
   margin-top: 5rem; }
 
 .social a {
   position: relative;
   text-decoration: none;
-  color: white; }
+  color: white;
+  left: 18%; }
