@@ -515,7 +515,20 @@ padding-bottom: 1rem;
 }
 }
 
-@media (max-width:375px){
+@media (max-width:497px){
+  .animated-title {
+  color: $color-white;
+  font-family: Roboto, Arial, sans-serif;
+  height: 18rem;
+  position: absolute;
+//   transform: translate(-50%, -50%);
+  // width: 80vmin;
+}
+.animated-title > div div {
+  font-size:2.5rem;
+  padding: 2.4vmin 0;
+  // position: absolute;
+}
 .technologies {
   // margin-left: 1rem;
   // // background-color: wheat;

@@ -427,7 +427,15 @@ span.subword {
   .technologies {
     font-size: 5rem; } }
 
-@media (max-width: 375px) {
+@media (max-width: 497px) {
+  .animated-title {
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    height: 18rem;
+    position: absolute; }
+  .animated-title > div div {
+    font-size: 2.5rem;
+    padding: 2.4vmin 0; }
   .technologies {
     font-size: 4.5rem; } }
 
