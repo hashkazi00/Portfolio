@@ -1,0 +1,14 @@
+{
+  "name": "porttfolio",
+  "version": "1.0.0",
+  "description": "portfolio website for sahil kazi",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/stylesheet.css -w"
+  },
+  "author": "sahil",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
