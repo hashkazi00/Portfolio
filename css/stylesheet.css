@@ -295,7 +295,7 @@ span.subword {
   font-size: 1.5rem;
   cursor: pointer; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
   .container {
     display: flex;
     justify-content: space-between;
