@@ -411,63 +411,6 @@ span.subword {
 .fab:not(:last-child) {
   margin-right: 2.5rem; }
 
-@media (max-width: 1050px) {
-  .technologies {
-    margin-left: 1rem;
-    margin-top: 4rem;
-    font-size: 7rem;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center; } }
-
-@media (max-width: 600px) {
-  .card--bottom {
-    font-size: 1.4rem;
-    height: 18rem;
-    padding: 2rem;
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    color: #222831;
-    box-shadow: 0px 20px 15px #000000c7; } }
-
-@media (max-width: 500px) {
-  .technologies {
-    font-size: 5rem; } }
-
-@media (max-width: 497px) {
-  .animated-title {
-    color: white;
-    font-family: Roboto, Arial, sans-serif;
-    height: 20rem;
-    position: absolute; }
-  .animated-title > div div {
-    font-size: 2.8rem;
-    padding: 2.4vmin 0; }
-  .animated-title > div.text-top div span:first-child {
-    color: white;
-    padding-bottom: 1rem; }
-  .technologies {
-    font-size: 4.5rem; } }
-
-@media (max-width: 410px) {
-  .animated-title {
-    color: white;
-    font-family: Roboto, Arial, sans-serif;
-    height: 20rem;
-    position: absolute; }
-  .animated-title > div div {
-    font-size: 2.5rem;
-    padding: 2.4vmin 0; }
-  .animated-title > div.text-top div span:first-child {
-    color: white;
-    padding-bottom: 2rem; } }
-
 .fa-html5:hover {
   color: #e96228;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.8), 0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8), 0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5), 0 0 80px rgba(66, 220, 219, 0.5); }
@@ -512,7 +455,7 @@ span.subword {
   font-size: 2rem;
   font-weight: 300;
   text-align: justify;
-  padding: 4rem;
+  padding: 3.5rem 3.5rem 2.8rem 3.5rem;
   margin-bottom: -5rem; }
 
 .social--icons {
@@ -527,3 +470,68 @@ span.subword {
   text-decoration: none;
   color: white;
   left: 25%; }
+
+@media (max-width: 1050px) {
+  .technologies {
+    margin-left: 1rem;
+    margin-top: 4rem;
+    font-size: 7rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; } }
+
+@media (max-width: 800px) {
+  .card--bottom {
+    font-size: 1.6rem;
+    height: 18rem;
+    padding: 2rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: #222831;
+    box-shadow: 0px 20px 15px #000000c7; } }
+
+@media (max-width: 600px) {
+  .introduction p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: justify;
+    padding: 2rem 2rem 4rem 2rem;
+    margin-bottom: -5rem; } }
+
+@media (max-width: 500px) {
+  .technologies {
+    font-size: 5rem; } }
+
+@media (max-width: 497px) {
+  .animated-title {
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    height: 20rem;
+    position: absolute; }
+  .animated-title > div div {
+    font-size: 2.8rem;
+    padding: 2.4vmin 0; }
+  .animated-title > div.text-top div span:first-child {
+    color: white;
+    padding-bottom: 1rem; }
+  .technologies {
+    font-size: 4.5rem; } }
+
+@media (max-width: 410px) {
+  .animated-title {
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    height: 20rem;
+    position: absolute; }
+  .animated-title > div div {
+    font-size: 2.5rem;
+    padding: 2.4vmin 0; }
+  .animated-title > div.text-top div span:first-child {
+    color: white;
+    padding-bottom: 2rem; } }
