@@ -20,6 +20,12 @@ html{
     padding: 0.8rem 0;
     z-index: 200;
 }
+
+.header svg{
+  color: white;
+  position: absolute;
+  left:80%;
+}
 // body{
 //   display:flex;
 //   flex-direction: column;
